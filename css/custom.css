@@ -1,0 +1,41 @@
+body {
+    font-size: 15px; /* 修改为你想要的大小 */
+}
+/* 修改代码块的背景颜色为浅灰色 */
+code, pre {
+    background-color: #ededed; /* 浅灰色背景 */
+    padding: 5px;             /* 内边距 */
+    border-radius: 5px;        /* 圆角边框 */
+    /* display: block;            让代码块独占一行 */
+    font-size: 14px;           /* 字体大小 */
+}
+
+/* 设置一级标题 h1 */
+h1 {
+    font-size: 2.5 !important;   /* 调整大小 */
+    color: #0E41B0 !important;     /* 设置颜色 */
+    margin-bottom: 20px;
+    font-weight: bold!important;  /* 加粗 */
+}
+
+/* 设置二级标题 h2 */
+h2 {
+    font-size: 2em;
+    color: #0E4CB0;
+    margin-bottom: 15px;
+    font-weight: bold!important;  /* 加粗 */
+}
+
+/* 设置三级标题 h3 */
+h3 {
+    font-size: 1.75em;
+    color: #0E57B0;
+    margin-bottom: 10px;
+}
+
+/* 设置四级标题 h4 */
+h4 {
+    font-size: 1.5em;
+    color: #0E62B0;
+    margin-bottom: 8px;
+}
