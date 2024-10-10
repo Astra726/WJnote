@@ -1,0 +1,16 @@
+site_name: 'My Documentation Site'
+nav:
+  - Home: index.md
+  - MKDocs:
+      - 终端命令: section1/topic1.md
+      - Details: section1/topic2.md
+  - Section 2: section2/topic3.md
+
+theme:
+  name: 'material'
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+extra_css:
+  - css/custom.css
