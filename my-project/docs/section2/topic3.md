@@ -91,3 +91,9 @@ Commit the Changes
 Push the Changes to GitHub
 
 `git push origin main`
+
+## changes the repository name
+
+`git remote set-url origin [new_url]`
+
+`git remote -v`
