@@ -4,7 +4,7 @@ nav:
   - MKDocs:
       - 终端命令: section1/topic1.md
       - Details: section1/topic2.md
-  - Section 2: section2/topic3.md
+  - Git command: section2/topic3.md
 
 theme:
   name: 'material'

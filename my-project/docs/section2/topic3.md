@@ -50,13 +50,11 @@ Pull changes on other machines before working:
 `git pull`
 
 ## Enable GitHub Pages for Hosting MkDocs
-You can also host your MkDocs site directly on GitHub Pages:
-
 After pushing your MkDocs project to GitHub, install the MkDocs GitHub Pages plugin:
 
 `pip install mkdocs-material mkdocs-git-revision-date-localized-plugin`
 
-Add this to your mkdocs.yml file:
+Add this to your *mkdocs.yml* file:
 ```
 plugins:
   - search
@@ -67,10 +65,10 @@ Deploy your site:
 
 `mkdocs gh-deploy`
 
-# upload (push) your changes
+## upload (push) your changes
 
-## Navigate to Your Project Directory
-Make sure you're in the project directory where your repository is located:
+ Navigate to Your Project Directory
+
 `cd /path/to/your/project`
 
 Check Git Status
