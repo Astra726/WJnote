@@ -1,14 +1,6 @@
 body {
     font-size: 15px; /* 修改为你想要的大小 */
 }
-/* 修改代码块的背景颜色为浅灰色 */
-code, pre {
-    background-color: #ededed; /* 浅灰色背景 */
-    padding: 5px;             /* 内边距 */
-    border-radius: 5px;        /* 圆角边框 */
-    /* display: block;            让代码块独占一行 */
-    font-size: 14px;           /* 字体大小 */
-}
 
 /* 设置一级标题 h1 */
 h1 {
@@ -23,19 +15,27 @@ h2 {
     font-size: 2em;
     color: #0E4CB0;
     margin-bottom: 15px;
-    font-weight: bold!important;  /* 加粗 */
+    font-weight: bold !important;  /* 加粗 */
 }
 
-/* 设置三级标题 h3 */
-h3 {
-    font-size: 1.75em;
-    color: #0E57B0;
-    margin-bottom: 10px;
+
+/* 自定义代码块样式 */
+
+code {
+    background-color: #f5f3f4 !important;  /* 背景颜色 */
+    /* border: 1px solid #ccc;   */
+    padding: 4px 4px !important;         /* 内边距 */
+    /* font-size: 90%; */
+    /* border-radius: 4px;   */
 }
 
-/* 设置四级标题 h4 */
-h4 {
-    font-size: 1.5em;
-    color: #0E62B0;
-    margin-bottom: 8px;
+pre code {
+    box-shadow: none !important; /* 移除阴影 */
+    background-color: #f5f3f4 !important;
+    /* border: 1px solid #ccc; */
+    padding: 4px !important;
+    /* font-size: 90%;
+    border-radius: 4px; */
+ 
 }
+
