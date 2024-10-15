@@ -4,14 +4,18 @@ nav:
   - MKDocs:
       - 终端命令: section1/topic1.md
       - Details: section1/topic2.md
-  - Git command: section2/topic3.md
+  - Git:
+      - Git build: section2/topic3.md
+      - GitHub Pages: section2/topic4.md
 
 theme:
-  name: 'material'
+  name: material
   features:
     - navigation.tabs
     - navigation.sections
-
+    - instant
+    - code-copy  # 启用复制按钮
+    
 extra_css:
   - css/custom.css
 
