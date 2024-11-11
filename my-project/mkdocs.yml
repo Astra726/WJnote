@@ -7,6 +7,10 @@ nav:
   - Git:
       - Git build: section2/topic3.md
       - GitHub Pages: section2/topic4.md
+  - SQL:
+      - SQLite: section3/topic31.md
+      - SQL: section3/topic32.md
+      - 数据清洗: section3/topic33.md
 
 theme:
   name: material

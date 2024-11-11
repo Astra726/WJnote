@@ -12,23 +12,23 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Terminal 
 
 ### 创建文件夹
-
-* `mkdir tech_notes`
-* `mkdir images`   
-* `mkdir code_samples` 
-* `mkdir -p docs/css`
-
+```
+mkdir tech_notes
+mkdir images
+mkdir code_samples
+mkdir -p docs/css
+```
 ### 进入文件夹
-
-* `cd tech_notes`
-* `mkdir images`   
-* `mkdir code_samples`   
-
+```
+cd tech_notes
+mkdir images
+mkdir code_samples 
+```
 ### 创建文件
-
-* `touch docs/css/custom.css`
-* `touch index.md`  
-
+```
+touch docs/css/custom.css
+touch index.md
+```
 
 
 
